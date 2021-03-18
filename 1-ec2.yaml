@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Resources:
+  MyFirstEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-09c5e030f74651050
+      InstanceType: t2.micro
+      Tags:
+        - Key: Env
+          Value: Dev
+        - Key: Name
+          Value: Dev Test1
+      
