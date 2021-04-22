@@ -9,3 +9,8 @@ LinkedIn: https://www.linkedin.com/in/girishjaju/
 
 1) 1-ec2.yaml: Simple example of creating an EC2 machine. This example hardcodes the AMI Id, which we will fix in subsequent samples. The AMI Id is valid in us-west-2 region.
 
+2) apache-ec2.yaml: Cloudformation script for the post and hands on video coding tutorial:
+Post: https://mycloudtutorials.com/2021/04/setup-and-run-apache-on-ec2-3-different-ways/
+Youtube: https://www.youtube.com/watch?v=reEBVJSH6pY
+
+
